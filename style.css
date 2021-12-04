@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(235, 234, 234);
+  font-family: "Poppins", sans-serif;
+}
+/* #545f66 */
+/* #829399; */
+#gallery {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  color: tomato;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  max-width: 300px;
+  height: 500px;
+  padding: 15px;
+  margin: 20px;
+}
+.flex-item:hover {
+  /* border: 1px solid black; */
+  color: rgb(15, 70, 189);
+  box-shadow: rgba(15, 70, 189, 0.19) 0px 10px 20px,
+    rgba(15, 70, 189, 0.23) 0px 6px 6px;
+}
+
+.project-title,
+.project-description,
+.image {
+  margin: 5px;
+}
